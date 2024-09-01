@@ -1,0 +1,20 @@
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.Screen1.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.Screen2.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\doki-doki-rodriguinho-janken-club.vbproj.GenerateResource.Cache
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnPedraWin.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnPedraDraw.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnPedraLose.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnPapelDraw.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnPapelLose.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnPapelWin.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnTesouraDraw.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnTesouraLose.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\WindowsApplication1.scrnTesouraWin.resources
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\bin\Debug\Doki Doki Rodriguinho Janken Club.exe.config
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\bin\Debug\Doki Doki Rodriguinho Janken Club.exe
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\bin\Debug\Doki Doki Rodriguinho Janken Club.pdb
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\bin\Debug\Doki Doki Rodriguinho Janken Club.xml
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\Doki Doki Rodriguinho Janken Club.exe
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\Doki Doki Rodriguinho Janken Club.xml
+C:\Users\PC\Desktop\Técnico\DS\projetos\doki-doki-rodriguinho-janken-club\doki-doki-rodriguinho-janken-club\obj\Debug\Doki Doki Rodriguinho Janken Club.pdb

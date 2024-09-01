@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA614E2A-691C-44B3-8992-814FA50FF484}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Doki Doki Rodriguinho Janken Club</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Doki Doki Rodriguinho Janken Club.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Doki Doki Rodriguinho Janken Club.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>rodrigo-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Screen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen1.Designer.vb">
+      <DependentUpon>Screen1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Screen2.Designer.vb">
+      <DependentUpon>Screen2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Screen2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnPapelDraw.Designer.vb">
+      <DependentUpon>scrnPapelDraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnPapelDraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnPapelLose.Designer.vb">
+      <DependentUpon>scrnPapelLose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnPapelLose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnPapelWin.Designer.vb">
+      <DependentUpon>scrnPapelWin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnPapelWin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnPedraDraw.Designer.vb">
+      <DependentUpon>scrnPedraDraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnPedraDraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnPedraLose.Designer.vb">
+      <DependentUpon>scrnPedraLose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnPedraLose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnPedraWin.Designer.vb">
+      <DependentUpon>scrnPedraWin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnPedraWin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnTesouraDraw.Designer.vb">
+      <DependentUpon>scrnTesouraDraw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnTesouraDraw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnTesouraLose.Designer.vb">
+      <DependentUpon>scrnTesouraLose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnTesouraLose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scrnTesouraWin.Designer.vb">
+      <DependentUpon>scrnTesouraWin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scrnTesouraWin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Screen1.resx">
+      <DependentUpon>Screen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screen2.resx">
+      <DependentUpon>Screen2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnPapelDraw.resx">
+      <DependentUpon>scrnPapelDraw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnPapelLose.resx">
+      <DependentUpon>scrnPapelLose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnPapelWin.resx">
+      <DependentUpon>scrnPapelWin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnPedraDraw.resx">
+      <DependentUpon>scrnPedraDraw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnPedraLose.resx">
+      <DependentUpon>scrnPedraLose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnPedraWin.resx">
+      <DependentUpon>scrnPedraWin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnTesouraDraw.resx">
+      <DependentUpon>scrnTesouraDraw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnTesouraLose.resx">
+      <DependentUpon>scrnTesouraLose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scrnTesouraWin.resx">
+      <DependentUpon>scrnTesouraWin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedra-vitória.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedra-empate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedra-derrota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papel-vitória.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papel-empate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papel-derrota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesoura-vitória.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesoura-empate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tesoura-derrota.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\screen2vc.jpg" />
+    <Content Include="rodrigo-icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
